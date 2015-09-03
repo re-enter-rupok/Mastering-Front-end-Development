@@ -1,0 +1,45 @@
+.image-widget ul {
+	padding: 0;
+}
+
+.image-widget li {
+	width: 25%;
+	float: left;
+	list-style-type: none;
+} 
+
+.image-widget img {
+	width: 100%;
+	display: block;
+	padding: 5px;
+
+} 
+
+.header-banner {
+	background: url(../images/bg.jpg) no-repeat center center / cover;
+	height: 600px;
+	width: 100%;
+}
+
+.banner-content {
+	z-index: 2;
+	position: relative;
+	color: #fff;
+}
+.header-banner > .inner {
+
+  background: -webkit-linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #4CB8C4 10%, #3CD3AD 90%); /* W3C */
+
+height: 600px;
+opacity: 0.6;
+position: absolute;
+width: 100%;
+z-index: 1;
+}
+
+
+
